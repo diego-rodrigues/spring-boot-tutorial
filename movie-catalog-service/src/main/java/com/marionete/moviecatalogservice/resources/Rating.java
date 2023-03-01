@@ -5,6 +5,8 @@ public class Rating {
     private String movieId;
     private int rating;
 
+    public Rating(){};
+
     public String getMovieId() {
         return movieId;
     }
